@@ -61,7 +61,7 @@ Configure your Domain and IP Range (first 3 octets only...). This must match the
 
 Now, configure the individual IP addresses for each application. Each IP must be addressable inside of your network. If they aren't, this will fail. (and you will have to start from scratch, because this configures the Docker container - which you can't reconfigure after the fact.)
 
-![IP Config Screen](../assets/install/install10.png)
+![IP Config Screen](../assets/install/Install10.png)
 
 You can now create a username and use the password you previously used during pre-install (you still remember it - right?). Do not call your user 'admin', 'cozyadmin', 'localadmin', anything in the linux default user list (like root or adm), or anything that will conflict with a default. If you want admin accounts and user accounts, I recommend "nameadm". Mine would be "jarvisadm" but that's really up to you. (not sure if periods are allowed in FreeIPA)
 
@@ -69,6 +69,6 @@ You can now create a username and use the password you previously used during pr
 
 Finally, confirm your settings are correct before you being. In a virtual environment, it's easy to revert to a snapshot. But on actual hardware, this may mean a complete reinstall if incorrect. (I've never tested running the script twice on the same machine...)
 
-![Login Screen](../assets/install/install12.png)
+![Login Screen](../assets/install/Install12.png)
 
-And you are complete. You will now need to configure the individual applications. 
+And you are complete. You will now need to configure the individual applications.
